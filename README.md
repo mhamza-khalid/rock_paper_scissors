@@ -1,2 +1,3 @@
 # rock_paper_scissors
-A rock, paper, scissors game made using Javascript functions. 
+A basic rock, paper, scissors game made using Javascript functions. 
+Preview : https://mhamza-khalid.github.io/rock_paper_scissors/
