@@ -26,7 +26,7 @@ rock1.addEventListener('click', function (event) {
                 player_count = 0;
                 count = 0 ;
             }
-            else if (count <=5){
+            else if (comp_count < player_count){
                 result1.textContent = "You win the best of 5 game!";
                 comp_count = 0;
                 player_count = 0;
@@ -93,7 +93,7 @@ paper1.addEventListener('click', function (event) {
                 player_count = 0;
                 count = 0 ;
             }
-            else if (count <=5){
+            else if (comp_count < player_count){
                 result1.textContent = "You win the best of 5 game!";
                 comp_count = 0;
                 player_count = 0;
@@ -156,7 +156,7 @@ scissors1.addEventListener('click', function (event) {
                 player_count = 0;
                 count = 0 ;
             }
-            else if (count <=5){
+            else if (comp_count < player_count){
                 result1.textContent = "You win the best of 5 game!";
                 comp_count = 0;
                 player_count = 0;
