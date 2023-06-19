@@ -19,7 +19,7 @@ rock1.addEventListener('click', function (event) {
     if (event.button === 0) {
         count = count + 1;
         let computerChoice = getComputerChoice(); //genrates computers choice
-        while (count == 5){
+        while (count == 5 && (comp_count == 3 || player_count == 3)){
             if (comp_count > player_count){
                 result1.textContent = "Computer wins the best of 5 game!";
                 comp_count = 0;
@@ -86,7 +86,7 @@ paper1.addEventListener('click', function (event) {
     if (event.button === 0) {
         count = count + 1;
         let computerChoice = getComputerChoice(); //genrates computers choice
-        while (count ==5){
+        while (count == 5 && (comp_count == 3 || player_count == 3)){
             if (comp_count > player_count){
                 result1.textContent = "Computer wins the best of 5 game!";
                 comp_count = 0;
@@ -149,7 +149,7 @@ scissors1.addEventListener('click', function (event) {
         console.log("Hello");
         count = count + 1;
         let computerChoice = getComputerChoice(); //genrates computers choice
-        while (count == 5){
+        while (count == 5 && (comp_count == 3 || player_count == 3)){
             if (comp_count > player_count){
                 result1.textContent = "Computer wins the best of 5 game!";
                 comp_count = 0;
