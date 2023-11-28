@@ -1,15 +1,12 @@
 let comp_count = 0;
 let player_count = 0;
-<<<<<<< HEAD
+
 let count = 0;
 
 const result1 = document.querySelector('.result');
-const declare1 = document.querySelector('.declare')
-=======
-
-const result1 = document.querySelector('.result');
 const declare1 = document.querySelector('.declare');
->>>>>>> 634640e7c3d20281d5ac9debe677f19f1ca5d0e6
+
+
 const urScore = document.querySelector('.you');
 const compScore = document.querySelector('.computer');
 
@@ -17,7 +14,7 @@ const rock1 = document.querySelector('.rock');
 const paper1 = document.querySelector('.paper');
 const scissors1 = document.querySelector('.scissors');
 
-<<<<<<< HEAD
+
 
 
 
@@ -222,7 +219,7 @@ scissors1.addEventListener('click', function (event) {
         }
     }
 });
-=======
+
 rock1.addEventListener('click', function (event) {
     result1.textContent = '';
     let computerChoice = getComputerChoice();
@@ -283,4 +280,4 @@ function checkWinningCondition() {
         player_count = 0;
     }
 }
->>>>>>> 634640e7c3d20281d5ac9debe677f19f1ca5d0e6
+
